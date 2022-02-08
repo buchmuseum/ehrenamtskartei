@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ehrenamtskartei"
+version = "0.1.0"
+description = "Import der Ehrenamtskartei des Börsenvereins in das CBS der DNB"
+authors = ["André Wendler <andre.wendler@gmail.com>"]
+license = "CC.0"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
